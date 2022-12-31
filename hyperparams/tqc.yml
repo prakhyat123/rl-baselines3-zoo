@@ -5,7 +5,7 @@ donkey-mountain-track-v0:
   env_wrapper:
     - gym.wrappers.time_limit.TimeLimit:
         max_episode_steps: 10000
-    - wrapper_vicreg.VICREGWrapper
+    - vicregdonkey.wrapper.VICREGWrapper
     #- rl_zoo3.wrappers.HistoryWrapper:
     #    horizon: 4
   #   - utils.wrappers.HistoryWrapper:
